@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect } from "react";
 import Link from "next/link";
 import { Syne } from "next/font/google";
@@ -6,9 +7,19 @@ import { useInView } from "react-intersection-observer";
 import AnimatedBody from "../ui/AnimatedBody";
 import AnimatedTitle from "../ui/AnimatedTitle";
 
+import { MutableRefObject } from "react";
+import Blobity from "blobity";
+
+interface HeroProps {
+  blobity: MutableRefObject<Blobity | null>;
+}
 const syne = Syne({ subsets: ["latin"] });
 
-export default function About() {
+export default function About({ blobity }: HeroProps) {
+  useEffect(() => {
+  if (blobity.current) {
+  }
+}, [blobity]);
   const { setSectionInView } = useView();
 
   const { ref, inView } = useInView({

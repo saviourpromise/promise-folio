@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Syne } from "next/font/google";
 import { Kumbh_Sans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";

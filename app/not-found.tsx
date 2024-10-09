@@ -2,8 +2,6 @@
 import Link from "next/link";
 import { Syne } from "next/font/google";
 import Image from "next/image";
-import { useView } from "@/contexts/ViewContext";
-import { useEffect } from "react";
 
 const syne = Syne({ subsets: ["latin"] });
 

@@ -2,7 +2,6 @@
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
 import {
-  delay,
   easeIn,
   easeInOut,
   motion,
@@ -12,7 +11,18 @@ import {
 import { useInView } from "react-intersection-observer";
 import { useView } from "@/contexts/ViewContext";
 
-export default function Hero() {
+import { MutableRefObject } from "react";
+import Blobity from "blobity";
+
+interface HeroProps {
+  blobity: MutableRefObject<Blobity | null>;
+}
+
+export default function Hero({ blobity }: HeroProps) {
+  useEffect(() => {
+    if (blobity.current) {
+    }
+  }, [blobity]);
   const handWaveAnimation = {
     rotate: [0, 15, -10, 15, -10, 15, -10, 15, -10, 15, 0],
     transition: {

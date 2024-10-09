@@ -12,11 +12,11 @@ export default function Home() {
 
   return (
     <main>
-      <Hero />
-      <Works />
-      <About />
-      <Contact />
-      <Footer />
+      <Hero blobity={blobity}/>
+      <Works blobity={blobity}/>
+      <About blobity={blobity}/>
+      <Contact blobity={blobity}/>
+      <Footer blobity={blobity}/>
     </main>
   );
 }

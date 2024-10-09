@@ -6,8 +6,19 @@ import { useView } from "@/contexts/ViewContext";
 import { useInView } from "react-intersection-observer";
 import Timeline from "./Timeline";
 
-export default function Works() {
+import { MutableRefObject } from "react";
+import Blobity from "blobity";
+
+interface HeroProps {
+  blobity: MutableRefObject<Blobity | null>;
+}
+
+export default function Works({ blobity }: HeroProps) {
   const { setSectionInView } = useView();
+  useEffect(() => {
+    if (blobity.current) {
+    }
+  }, [blobity]);
 
   const works = [
     {

@@ -1,11 +1,24 @@
+"use client";
 import { useView } from "@/contexts/ViewContext";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
+
+import { MutableRefObject } from "react";
+import Blobity from "blobity";
+
+interface HeroProps {
+  blobity: MutableRefObject<Blobity | null>;
+}
+
 
 const curYear = new Date().getFullYear();
 
-export default function Footer() {
+export default function Footer({ blobity }: HeroProps) {
+  useEffect(() => {
+  if (blobity.current) {
+  }
+}, [blobity]);
   const { setSectionInView } = useView();
 
   return (

@@ -7,14 +7,33 @@ import { AnimatePresence, motion } from "framer-motion";
 import AnimatedTitle from "../ui/AnimatedTitle";
 import Link from "next/link";
 import { Icon } from "@iconify/react/dist/iconify.js";
-import { useForm } from "react-hook-form";
+import { useForm, SubmitHandler } from "react-hook-form"; // Import SubmitHandler
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { MutableRefObject } from "react";
+import Blobity from "blobity";
+
+// Define the form data interface
+interface ContactFormInputs {
+  userName: string;
+  userEmail: string;
+  userMessage: string;
+}
+
+interface HeroProps {
+  blobity: MutableRefObject<Blobity | null>;
+}
 
 const syne = Syne({ subsets: ["latin"] });
 
-export default function Contact() {
+export default function Contact({ blobity }: HeroProps) {
+  useEffect(() => {
+    if (blobity.current) {
+      // Blobity logic here (if needed)
+    }
+  }, [blobity]);
+
   const { setSectionInView } = useView();
   const [viewCount, setViewCount] = useState<number>(0);
   const [formDisplay, setFormDisplay] = useState<boolean>(false);
@@ -34,13 +53,14 @@ export default function Contact() {
     }
   }, [inView, setSectionInView]);
 
-  const { formState, register, handleSubmit, reset } = useForm();
+  const { formState, register, handleSubmit, reset } = useForm<ContactFormInputs>(); // Use the form data interface
   const { errors } = formState;
 
   // For email.js
   const formRef = useRef<HTMLFormElement>(null);
 
-  function onSubmit(data: any) {
+  // Use SubmitHandler with the correct form data type
+  const onSubmit: SubmitHandler<ContactFormInputs> = (data) => {
     console.log(data);
 
     emailjs
@@ -82,7 +102,7 @@ export default function Contact() {
           });
         }
       );
-  }
+  };
 
   return (
     <>
@@ -100,9 +120,7 @@ export default function Contact() {
       >
         {!formDisplay ? (
           <div
-            className={` ${
-              syne.className
-            } flex justify-between items-center w-full duration-1000 ${
+            className={` ${syne.className} flex justify-between items-center w-full duration-1000 ${
               formDisplay && "opacity-0"
             }`}
           >
@@ -229,19 +247,18 @@ export default function Contact() {
                   <div className="flex gap-1 flex-col">
                     <label
                       htmlFor="userMessage"
-                      className="opacity-70 text-sm lg:text-base"
+                      className="opacity-70 text-sm lg:text-base "
                     >
                       Message
                     </label>
                     <textarea
                       id="userMessage"
+                      rows={3}
                       {...register("userMessage", {
-                        required: "I'll appreciate what you have to say.",
+                        required: "Please enter a message",
                       })}
-                      rows={4}
-                      cols={50}
                       className="bg-transparent rounded-md border border-[#737373c4] focus:border-[#9f9d9dc4] outline-none py-1 pl-2"
-                    />
+                    ></textarea>
                     {errors?.userMessage && (
                       <span className="text-red-400 text-xs">
                         {errors?.userMessage?.message as string}
@@ -249,9 +266,10 @@ export default function Contact() {
                     )}
                   </div>
                   <button
-                    className={`rounded-md bg-gradient-to-r from-[#d9d9d91f] to-[#7373731f] py-3 px-5 ${syne.className} font-bold uppercase mt-4`}
+                    className="bg-gradient-to-br from-[#c1c1c1b4] to-[#c1c1c1] hover:bg-opacity-10 duration-500 mt-4 rounded-md border border-transparent  py-2 text-sm lg:text-base px-8 lg:px-16"
+                    type="submit"
                   >
-                    Send
+                    Send Message
                   </button>
                 </form>
               </div>
