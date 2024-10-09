@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #08233b;
+  color: white;
+  overscroll-behavior: none;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    /* background-color: #d9d9d91f; /* Matches the theme */
+    background-color: #333;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    /* background-color: #3c84c7; /* Matches the theme */
+    background-color: #666;
+    border-radius: 5px;
+  }
+}
+
+.h-image {
+  -webkit-mask-image: url(../public/black.png);
+  -webkit-mask-position: center;
+  -webkit-mask-size: 390px 390px;
+  -webkit-mask-repeat: no-repeat;
+  z-index: -10;
+  /* transform: rotate(-15deg); */
+  /* Since I cannot achieve the particular effect I wanted to create, I can make it scroll */
+}
+
+@media (max-width: 1280px) {
+  .h-image {
+    -webkit-mask-size: 300px 300px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .h-image {
+    -webkit-mask-size: 300px 300px;
+  }
+}
+
+@media (max-width: 415px) {
+  .h-image {
+    -webkit-mask-size: 270px 270px;
+  }
+}
+
+/* CARD ANIMATIONS */
+.card {
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+/* .card.flipped,
+.card .back {
+  transform: perspective(300px) rotateY(180deg);
+} */
+
+/* .card .back {
+  transition: opacity 0.3s ease 1s;
+} */
+
+.custom-toast {
+  background-color: #081e32 !important;
+
+  .Toastify__progress-bar {
+    background-color: #548fba;
+  }
+}
+
+.std-backdrop-blur {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
