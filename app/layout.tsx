@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: "Saviour Promise — Frontend Developer",
     description:
     "Frontend Developer at CodSoft Technologies, passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my development skills. I thrive on turning ideas into seamless digital solutions.",
-    url: "https://www.adeolabadero.vercel.app",
+    url: "https://www.promise-folio.vercel.app",
     siteName: "www.adeolabadero.vercel.app",
     images: [
       {
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     title:"Saviour Promise — Frontend Developer",
     description:
       "Frontend Developer at CodSoft Technologies, passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my development skills. I thrive on turning ideas into seamless digital solutions.",
-    creator: "@Ade_the_great",
+    creator: "@promiseNotNull",
     images: ["https://i.ibb.co/FKMqc28/adeola-badero.png"],
   },
   robots: {

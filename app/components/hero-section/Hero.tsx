@@ -130,7 +130,7 @@ export default function Hero({ blobity }: HeroProps) {
         >
           {/* <div className="bg-white absolute w-[300px] h-[300px] rounded-2xl z-50 mix-blend-screen"></div> */}
           <Image
-            src="/IMG_7019.JPG"
+            src="/dope_pic.jpeg"
             priority
             fill
             alt="Promise's picture"
