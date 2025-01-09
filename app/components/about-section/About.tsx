@@ -65,7 +65,7 @@ export default function About({ blobity }: HeroProps) {
             <Link
               className="underline"
               href={
-                "https://drive.google.com/file/d/1Rd-IB_5pxsGj4RDtHjEggPB392ND29xB/view?usp=sharing"
+                "https://pdf.ac/23IHpb"
               }
             >
               my résumè
