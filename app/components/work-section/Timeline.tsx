@@ -31,16 +31,18 @@ const TimelineData = [
     ],
   },
   {
-    companyImg: "/ZIDIO.jpg",
-    jobTitle: "Frontend Developer Intern",
-    company: "Zidio Development",
-    jobType: "Internship",
-    duration: "Aug 2023 - Jan 2024",
+    companyImg: "/fad.png",
+    jobTitle: "Frontend Developer",
+    company: "Fadqus Int'l",
+    jobType: "Full Time",
+    duration: "Apr 2025 - Present",
     stuffIDid: [
-      "Worked with a team of 5 Frontend Developers and a Backend Developer to build a Location Tracker Website that tracks a user's location based on real time. Also built a dashboard where previous and recent locations are shown and saved using (localStorage)",
-      "Led a team of fellow interns to design various templates and UI components common in internal applications such as dashboards, notification tabs, multi-step forms, tables with pagination etc. while making very impactful contributions.",
-      "Built a Personal Finance Tracker Website that enables users to set monthly budgets for different expense categories. I also provided visual feedback on budget utilization, with color-coded indicators. Frameworks used: NextJs, ReactJs, ChartJs(FRONTEND) - NodeJs, ExpressJs(BACKEND).",
-    ],
+      "Developed and maintained several customer-facing web applications for Fadqus Int’l, improving user engagement and overall performance through responsive, accessible, and intuitive UI design using React.js and Tailwind CSS.",
+      "Contributed to the internal tools used for managing gaming services, account sales, and order processing. Implemented dynamic interfaces and reusable components to streamline administrative workflows.",
+      "Built an AI-powered chat assistant integrated into the company’s customer service platform, enabling users to get instant support and redirecting to human agents when necessary, improving customer response time and satisfaction.",
+      "Collaborated closely with cross-functional teams including designers, backend engineers, and product leads to deliver high-quality features on schedule.",
+      "Optimized existing codebases and implemented performance enhancements that reduced page load time and improved application scalability.",
+    ],    
   },
 ];
 

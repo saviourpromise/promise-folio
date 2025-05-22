@@ -120,7 +120,7 @@ export default function Hero({ blobity }: HeroProps) {
       </div>
 
       {/* IMAGE */}
-      <div data-blobity-tooltip="ODUMODOBLVCK">
+      <div data-blobity-tooltip="ODUMODUBLVCK">
         <motion.div
           ref={imgRef}
           style={{ rotate }}

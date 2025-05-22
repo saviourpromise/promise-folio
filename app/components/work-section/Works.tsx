@@ -28,34 +28,34 @@ export default function Works({ blobity }: HeroProps) {
       about:
         "LETMEIN  is an access control software that enables it customers to manage access to thier living space. It achieves this by creating a network of three application. Estate Manager / Admin application, Resident / User Application and Security Application. I and my Team worked together on this project",
       stack: ["react", "chakra ui", "framer motion", "jquery", "redux", "tailwindcss", "react-router"],
-      img: "/letmein.JPG",
+      img: "/letmeIn.png",
     },
     {
-      title: "Gidiscapes",
-      gitLink: "https://github.com/adex-hub/where-in-the-world",
-      liveLink: "https://where-in-the-world-ade.netlify.app/",
+      title: "Scannet.AI",
+      gitLink: "https://github.com/saviourpromise/scannet",
+      liveLink: "https://scannetai.vercel.app/",
       about:
-        "A website that allow users to book hotel rooms in the nearest hotel lodges around. Also has the feature to change themes from dark-mode to light-mode. Users can also compare room prices based on location barrier.",
-      stack: ["react", "javascript", "tailwindcss", "vanilla css"],
-      img: "/hottee.JPG",
+        "SCANNET.AI is an AI-driven health and wellness detection app and tool used for checking and monitoring heart rate using facial screen detection to analyze results concerning the status of human heart rate. {Still In Development}",
+      stack: ["nextjs", "javascript", "typescript", "tailwindcss", "vanilla css"],
+      img: "/SCANNET.png",
     },
     {
-      title: "Quickpassword",
-      gitLink: "https://github.com/adex-hub/Yourtodo",
-      liveLink: "https://yourtodo-v1.vercel.app/",
+      title: "AgriLogiz",
+      gitLink: "https://github.com/agrilogiz/front-end-codes",
+      liveLink: "https://agrilogiz.ng/",
       about:
-        "A fun website where users can generate random, strong, and authenticated password for creating accounts on different sites rather than just trying back-and-forth to create passwords theirself. Passwords have a strong combination of capital letters, small letters, numbers, and symbols which makes it more unique.",
-      stack: ["html", "javascript", "bootstrap", "vanilla css"],
-      img: "/paa.JPG",
+        "AgriLogiz is a smart logistics platform that connects farmers with trusted drivers to transport agricultural goods efficiently. Users can also book rides and appointments, making it a versatile solution for both logistics and mobility within rural and farming communities.",
+      stack: ["reactjs", "javascript", "tailwindcss", "vanilla css", "framer motion"],
+      img: "/agrilogiz.png",
     },
     {
-      title: "Crystals Trading Hub",
+      title: "Crystals",
       gitLink: "https://github.com/saviourpromise/crystals",
       liveLink: "https://crystals-alpha.vercel.app",
       about:
         "Crystals Trading Hub is an innovative platform focused on transforming trading education. I developed the website to provide accessible, in-depth trading knowledge paired with dedicated mentorship, aimed at fostering informed decision-making and long-term success for aspiring traders.",
       stack: ["react", "tailwindCss", "javascript", "framer motion"],
-      img: "/five.JPG",
+      img: "/trade.png",
     },
   ];
 
