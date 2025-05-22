@@ -28,7 +28,7 @@ export default function Works({ blobity }: HeroProps) {
       about:
         "LETMEIN  is an access control software that enables it customers to manage access to thier living space. It achieves this by creating a network of three application. Estate Manager / Admin application, Resident / User Application and Security Application. I and my Team worked together on this project",
       stack: ["react", "chakra ui", "framer motion", "jquery", "redux", "tailwindcss", "react-router"],
-      img: "/letmeIn.png",
+      img: "/LETMEIN.png",
     },
     {
       title: "Scannet.AI",
