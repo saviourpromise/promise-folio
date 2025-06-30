@@ -23,7 +23,7 @@ const TimelineData = [
     jobTitle: "Frontend Developer Intern",
     company: "HNG Technologies",
     jobType: "Internship",
-    duration: "June 2024 - Present",
+    duration: "June 2024 - December 2024",
     stuffIDid: [
       "Came up with cross functional login & sign up page designs that are now integral parts of the tools used within the company.",
       "Led a team of fellow interns to design various templates and UI components common in internal applications such as dashboards, notification tabs, multi-step forms, tables with pagination etc. while making very impactful contributions.",
@@ -35,7 +35,7 @@ const TimelineData = [
     jobTitle: "Frontend Developer",
     company: "Fadqus Int'l",
     jobType: "Full Time",
-    duration: "Apr 2025 - Present",
+    duration: "April 2025 - Present",
     stuffIDid: [
       "Developed and maintained several customer-facing web applications for Fadqus Int’l, improving user engagement and overall performance through responsive, accessible, and intuitive UI design using React.js and Tailwind CSS.",
       "Contributed to the internal tools used for managing gaming services, account sales, and order processing. Implemented dynamic interfaces and reusable components to streamline administrative workflows.",

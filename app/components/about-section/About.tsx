@@ -47,12 +47,12 @@ export default function About({ blobity }: HeroProps) {
             My passion lies in creating visually appealing, user-friendly
             interfaces and seamless user experiences. I thrive on turning
             design concepts into functional, interactive websites or 
-            applications using HTML, CSS, and JAVASCRIPT while staying
+            applications using HTML, CSS, REACT.JS, NEXT.JS, REACT NATIVE and TYPESCRIPT while staying
             updated with the latest trends and technologies in the web
             development.
           </AnimatedBody>
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            From writing my first lines of code back in late 2022 to this point
+            From writing my first lines of code back in late 2023 to this point
             I have continually refined my development skills overtime 
             and & also solving complex challenges increasing the
             complexity of my development as time goes by to ensure improvement.
@@ -84,7 +84,7 @@ export default function About({ blobity }: HeroProps) {
               Frontend Tools
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              JavaScript(ES6+), React, Next.js, TypeScript, HTML5, Git/GitHub, React Hook Form, Formik.
+              JavaScript(ES6+), React, ReactNative, Next.js, TypeScript, HTML5, Git/GitHub, React Hook Form, Redux, Formik.
             </AnimatedBody>
           </div>
           <div>
@@ -96,7 +96,7 @@ export default function About({ blobity }: HeroProps) {
               UI Libraries
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              CSS3/SCSS/SASS, Tailwind CSS, Vanilla Css, Styled Components, Chakra UI, Framer
+              CSS3/SCSS/SASS, Tailwind CSS, Vanilla Css, Styled Components, Shadcn Ui, Chakra UI, Framer
               Motion, Bootstrap.
             </AnimatedBody>
           </div>
@@ -109,7 +109,7 @@ export default function About({ blobity }: HeroProps) {
               Design Tools
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              Figma, FigJam, UX Research, UI Design, Adobe.
+              Figma, FigJam, Corel Draw, Photoshop, UI Design, Adobe.
             </AnimatedBody>
           </div>
         </div>

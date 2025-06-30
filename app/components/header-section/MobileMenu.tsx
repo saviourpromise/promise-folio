@@ -70,7 +70,7 @@ export default function MobileMenu({
           <Link
             className="p-4 flex justify-center w-full rounded-xl h-fit text-2xl bg-gradient-to-r from-[#d9d9d915] to-[#7373731f] backdrop-blur-md"
             target="_blank"
-            href="https://x.com/psaviour495"
+            href="https://x.com/promiseNotNull"
             data-blobity-radius="10"
           >
             <Icon icon="akar-icons:x-fill" />

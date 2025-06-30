@@ -61,7 +61,7 @@ export default function Header() {
             <Link target="_blank" href="https://github.com/saviourpromise">
               <Icon icon="hugeicons:github" />
             </Link>
-            <Link target="_blank" href="https://x.com/psaviour495">
+            <Link target="_blank" href="https://x.com/promiseNotNull">
               <Icon icon="akar-icons:x-fill" />
             </Link>
           </div>
