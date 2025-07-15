@@ -17,9 +17,9 @@ const syne = Syne({ subsets: ["latin"] });
 
 export default function About({ blobity }: HeroProps) {
   useEffect(() => {
-  if (blobity.current) {
-  }
-}, [blobity]);
+    if (blobity.current) {
+    }
+  }, [blobity]);
   const { setSectionInView } = useView();
 
   const { ref, inView } = useInView({
@@ -46,14 +46,14 @@ export default function About({ blobity }: HeroProps) {
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
             My passion lies in creating visually appealing, user-friendly
             interfaces and seamless user experiences. I thrive on turning
-            design concepts into functional, interactive websites or 
+            design concepts into functional, interactive websites or
             applications using HTML, CSS, REACT.JS, NEXT.JS, REACT NATIVE and TYPESCRIPT while staying
             updated with the latest trends and technologies in the web
             development.
           </AnimatedBody>
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
             From writing my first lines of code back in late 2023 to this point
-            I have continually refined my development skills overtime 
+            I have continually refined my development skills overtime
             and & also solving complex challenges increasing the
             complexity of my development as time goes by to ensure improvement.
           </AnimatedBody>
@@ -64,8 +64,10 @@ export default function About({ blobity }: HeroProps) {
             more? Here&apos;s <br className="hidden md:block" />
             <Link
               className="underline"
+              target="_blank"
+              rel="noopener noreferrer"
               href={
-                "https://pdf.ac/23IHpb"
+                "/Saviour_Chukwuebuka_Promise_CV.pdf"
               }
             >
               my résumè
