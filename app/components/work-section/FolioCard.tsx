@@ -39,10 +39,10 @@ export default function FolioCard({
         width={420}
         height={600}
         alt="work"
-        className="rounded-[10px] w-full lg:col-span-5"
+        className="rounded-[10px] w-full lg:col-span-5 pointer-events-none select-none"
       />
       <div className="flex flex-col gap-4 lg:col-span-7">
-        <div className="flex items-center justify-between">
+        <div className="flex flex-wrap gap-4 items-center justify-between">
           <h2 className="text-3xl sm:text-4xl xl:text-5xl font-bold">
             {title}
           </h2>

@@ -6,11 +6,26 @@ import Title from "../ui/Title";
 
 const TimelineData = [
   {
+  companyImg: "/earlybean.jpeg",
+  jobTitle: "Frontend Developer",
+  company: "EarlyBean",
+  jobType: "Full Time",
+  duration: "July 2025 - Present",
+  stuffIDid: [
+    "Designed and developed responsive, user-friendly interfaces for Earlybean’s web platforms, enabling kids and teens aged 6–17 to manage pocket money, learn budgeting, and practice financial skills through interactive lessons, quizzes, and games.",
+    "Built dynamic dashboards and tools for parents to monitor spending, set limits, and track their children’s financial progress, ensuring seamless integration with Earlybean’s spending card and digital wallet systems.",
+    "Implemented reusable React.js and Tailwind CSS components to power Earlybean’s school-focused cashless payment system, allowing students to pay for meals, supplies, and activities while accessing learning resources.",
+    "Collaborated with designers, backend developers, and product managers to translate Figma designs into high-performance, accessible interfaces that work smoothly across desktop and mobile devices.",
+    "Optimized application performance and accessibility, reducing load times and improving overall user experience for both the Earlybean Parent and Youngster apps’ web counterparts.",
+    "Integrated API endpoints to fetch real-time transaction data and progress tracking, supporting the platform’s goal of promoting financial literacy for African kids and teens."
+  ],    
+},
+  {
     companyImg: "/agri.jpg",
     jobTitle: "Frontend Developer",
     company: "FarmNovation Enterprise",
     jobType: "Contract",
-    duration: "September 2024 - Present",
+    duration: "September 2024 - July 2025",
     stuffIDid: [
       "Developed and maintained, troubleshoot and debuged web applications in React",
       "Collaborated with designers, backend developers and fellow frontend developers to implement user interfaces that are visually appealing and highly functional. Integrated APIs and other services",

@@ -22,6 +22,15 @@ export default function Works({ blobity }: HeroProps) {
 
   const works = [
     {
+      title: "Scannet.AI",
+      gitLink: "https://github.com/saviourpromise/scannet",
+      liveLink: "https://scannetai.vercel.app/",
+      about:
+        "SCANNET.AI is an AI-driven health and wellness detection app and tool used for checking and monitoring heart rate using facial screen detection to analyze results concerning the status of human heart rate. {Still In Development}",
+      stack: ["nextjs", "javascript", "typescript", "tailwindcss", "vanilla css"],
+      img: "/SCANNET.png",
+    },
+        {
       title: "LETMEIN",
       gitLink: "https://letmein.ng",
       liveLink: "https://let-me-in-app.vercel.app",
@@ -30,14 +39,14 @@ export default function Works({ blobity }: HeroProps) {
       stack: ["react", "chakra ui", "framer motion", "jquery", "redux", "tailwindcss", "react-router"],
       img: "/Desktop - 3.png",
     },
-    {
-      title: "Scannet.AI",
-      gitLink: "https://github.com/saviourpromise/scannet",
-      liveLink: "https://scannetai.vercel.app/",
+        {
+      title: "Odumoducordion",
+      gitLink: "https://github.com/saviourpromise/odumodu-accordion",
+      liveLink: "https://www.npmjs.com/package/odumodu-accordion",
       about:
-        "SCANNET.AI is an AI-driven health and wellness detection app and tool used for checking and monitoring heart rate using facial screen detection to analyze results concerning the status of human heart rate. {Still In Development}",
-      stack: ["nextjs", "javascript", "typescript", "tailwindcss", "vanilla css"],
-      img: "/SCANNET.png",
+        "Odumoducordion is a sleek, animated, and reusable React accordion component built with ReactJs, Tailwind CSS and Framer Motion. It supports single or multiple open states, is accessible and responsive by default, and can be easily integrated into any React project with minimal setup.",
+      stack: ["reactjs", "javascript", "tailwindcss", "framer motion"],
+      img: "/npm.PNG",
     },
     {
       title: "AgriLogiz",

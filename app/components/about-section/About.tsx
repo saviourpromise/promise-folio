@@ -38,7 +38,7 @@ export default function About({ blobity }: HeroProps) {
         charSpace={"mr-[0.001em]"}
         className={`uppercase ${syne.className} antialiased text-4xl md:text-5xl xl:text-6xl font-bold opacity-80`}
       >
-        I replicate UI designs into user-friendly websites
+        I replicate UI designs into user-friendly applications
       </AnimatedTitle>
 
       <div className="grid grid-cols-1 lg:grid-cols-[8.5fr_3.5fr] gap-8 mt-6">
@@ -47,7 +47,7 @@ export default function About({ blobity }: HeroProps) {
             My passion lies in creating visually appealing, user-friendly
             interfaces and seamless user experiences. I thrive on turning
             design concepts into functional, interactive websites or
-            applications using HTML, CSS, REACT.JS, NEXT.JS, REACT NATIVE and TYPESCRIPT while staying
+            applications using HTML, CSS, REACT.JS, NEXT.JS, REACT NATIVE, JAVASCRIPT and TYPESCRIPT while staying
             updated with the latest trends and technologies in the web
             development.
           </AnimatedBody>
@@ -111,7 +111,7 @@ export default function About({ blobity }: HeroProps) {
               Design Tools
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              Figma, FigJam, Corel Draw, Photoshop, UI Design, Adobe.
+              Figma, FigJam, Corel Draw, Photoshop, Adobe.
             </AnimatedBody>
           </div>
         </div>
