@@ -105,9 +105,9 @@ export default function Hero({ blobity }: HeroProps) {
         >
           <p className="text-white/60 inline">I&apos;m </p>
           <span className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
-            Saviour Promise
+            Promise Saviour
           </span>
-          <p>a Frontend Developer</p>
+          <p>a Frontend & AI Systems Developer</p>
         </motion.h1>
 
         <motion.p
@@ -115,7 +115,7 @@ export default function Hero({ blobity }: HeroProps) {
           animate={animateIn2}
           className="text-white/40  text-xl smm:text-2xl lg:text-3xl xl:text-4xl mt-3 smm:mt-6 "
         >
-          currently focused on building user experiences that drive growth.
+          building interfaces and AI agents that actually work in production.
         </motion.p>
       </div>
 
@@ -130,7 +130,7 @@ export default function Hero({ blobity }: HeroProps) {
         >
           {/* <div className="bg-white absolute w-[300px] h-[300px] rounded-2xl z-50 mix-blend-screen"></div> */}
           <Image
-            src="/dope_pic.jpeg"
+            src="/odumodu.jpg"
             priority
             fill
             alt="Promise's picture"

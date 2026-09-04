@@ -8,8 +8,8 @@ const TimelineData = [
     companyImg: "/earlybean.jpeg",
     jobTitle: "Frontend Developer",
     company: "EarlyBean",
-    jobType: "Full Time",
-    duration: "July 2025 - Present",
+    jobType: "Contract",
+    duration: "July 2025 - October 2025",
     stuffIDid: [
       "Designed and developed responsive, user-friendly interfaces for Earlybean’s web platforms, enabling kids and teens aged 6–17 to manage pocket money, learn budgeting, and practice financial skills through interactive lessons, quizzes, and games.",
       "Built dynamic dashboards and tools for parents to monitor spending, set limits, and track their children’s financial progress, ensuring seamless integration with Earlybean’s spending card and digital wallet systems.",
@@ -24,7 +24,7 @@ const TimelineData = [
     jobTitle: "Frontend Developer",
     company: "Equisettle",
     jobType: "Contract",
-    duration: "June 2025 - November 2025",
+    duration: "June 2025 - September 2025",
     stuffIDid: [
       "Built and enhanced core user-facing features for Equisettle’s Accounts Receivable (AR) automation platform using React, ensuring a fast, intuitive, and reliable UI for finance teams.",
       "Implemented dashboards and data-driven components that visualized cash flow forecasts, outstanding invoices, customer payment behavior, and dispute (case) management workflows.",
@@ -33,6 +33,20 @@ const TimelineData = [
       "Optimized application performance, reduced load times, and improved rendering efficiency for large invoice datasets and analytics components.",
       "Wrote clean, scalable, and maintainable React code with reusable components and clear technical documentation.",
       "Adopted and integrated modern frontend tools to improve development speed, code quality, and user experience across Equisettle’s finance automation platform.",
+    ],
+  },
+  {
+    companyImg: "/Tros.jpeg",
+    jobTitle: "Frontend Developer",
+    company: "Tros Technologies",
+    jobType: "Full Time",
+    duration: "January 2026 - Present",
+    stuffIDid: [
+      "Designed and built responsive frontend interfaces for internal tools and client-facing products, including the Wazobia project, authentication flows, dashboards, and multi-step forms with clean, reusable component architecture.",
+      "Built and deployed ConvoDesk, a multi-tenant client conversation portal, and a universal chat widget system, enabling businesses to manage AI-powered client conversations across multiple platforms.",
+      "Developed and maintained a production AI agent ecosystem across two VPS servers, deploying and managing multiple Hermes agent instances using Docker, PM2, Nginx, and PostgreSQL.",
+      "Built bridge servers for real-time conversation logging, implemented heartbeat monitoring scripts for infrastructure health, and resolved live server incidents including abuse complaints on Contabo.",
+      "Shipped specialized AI agents for client use cases, including an event concierge agent (Maya) for a birthday event and an FAQ agent for NDPA, integrating domain-specific knowledge into each deployment.",
     ],
   },
   {
@@ -56,7 +70,7 @@ const TimelineData = [
     jobTitle: "Frontend Developer",
     company: "Fadqus Int'l",
     jobType: "Full Time",
-    duration: "April 2025 - Present",
+    duration: "April 2025 - November 2025",
     stuffIDid: [
       "Developed and maintained several customer-facing web applications for Fadqus Int’l, improving user engagement and overall performance through responsive, accessible, and intuitive UI design using React.js and Tailwind CSS.",
       "Contributed to the internal tools used for managing gaming services, account sales, and order processing. Implemented dynamic interfaces and reusable components to streamline administrative workflows.",
@@ -80,20 +94,20 @@ const TimelineData = [
       "Supported digital initiatives that help CISA manage student data, training schedules, volunteer activities, and program insights, making their impact delivery more organized and technology-driven.",
     ],
   },
-{
-  companyImg: "/HNG.jpg",
-  jobTitle: "Frontend Developer Intern",
-  company: "HNG Technologies",
-  jobType: "Internship",
-  duration: "June 2024 - December 2024",
-  stuffIDid: [
-    "Designed and developed responsive, user-friendly interfaces for internal applications, including authentication flows, dashboards, notification systems, multi-step forms, and data tables with pagination.",
-    "Led a team of interns to create reusable UI components and templates, improving development efficiency and standardizing design across HNG’s internal tools.",
-    "Mentored fellow interns on frontend development best practices, design fundamentals, and collaborative workflows, enabling them to contribute effectively to live projects.",
-    "Collaborated closely with backend developers and product leads to implement features that enhance usability, streamline workflows, and improve overall platform performance.",
-    "Ensured code quality through documentation, clean coding practices, and performance optimization, contributing to a scalable and maintainable frontend architecture."
-  ],
-},
+  {
+    companyImg: "/HNG.jpg",
+    jobTitle: "Frontend Developer Intern",
+    company: "HNG Technologies",
+    jobType: "Internship",
+    duration: "June 2024 - December 2024",
+    stuffIDid: [
+      "Designed and developed responsive, user-friendly interfaces for internal applications, including authentication flows, dashboards, notification systems, multi-step forms, and data tables with pagination.",
+      "Led a team of interns to create reusable UI components and templates, improving development efficiency and standardizing design across HNG’s internal tools.",
+      "Mentored fellow interns on frontend development best practices, design fundamentals, and collaborative workflows, enabling them to contribute effectively to live projects.",
+      "Collaborated closely with backend developers and product leads to implement features that enhance usability, streamline workflows, and improve overall platform performance.",
+      "Ensured code quality through documentation, clean coding practices, and performance optimization, contributing to a scalable and maintainable frontend architecture."
+    ],
+  },
 ];
 
 export default function Timeline() {

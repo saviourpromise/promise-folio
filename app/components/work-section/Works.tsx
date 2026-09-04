@@ -37,6 +37,14 @@ export default function Works({ blobity }: HeroProps) {
       img: "/SCANNET.png",
     },
     {
+      title: "Resourcefull",
+      gitLink: "https://github.com/resource-full/ResourceFull-Frontend",
+      liveLink: "https://resourcefull-v2.vercel.app",
+      about: "Resourcefull is a resource-sharing platform designed to help young professionals, enterprises and startups have quick and easy access to the resources they need. The platform features structured learning pathways, popular category browsing, top contributor highlights, and community testimonials to encourage knowledge sharing.",
+      stack: ["nextjs", "react", "typescript", "tailwindcss", "recharts", "axios"],
+      img: "/RF.png",
+    },
+    {
       title: "LETMEIN",
       gitLink: "https://github.com/solomonleke/LetMeIn-app",
       liveLink: "https://let-me-in-app.vercel.app",
@@ -53,7 +61,7 @@ export default function Works({ blobity }: HeroProps) {
       ],
       img: "/Desktop - 3.png",
     },
-        {
+    {
       title: "ONE-BY-ONE",
       gitLink: "https://github.com/solomonleke/One-by-one",
       liveLink: "https://onebyone.ng/",

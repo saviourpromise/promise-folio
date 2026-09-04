@@ -38,37 +38,34 @@ export default function About({ blobity }: HeroProps) {
         charSpace={"mr-[0.001em]"}
         className={`uppercase ${syne.className} antialiased text-4xl md:text-5xl xl:text-6xl font-bold opacity-80`}
       >
-        I replicate UI designs into user-friendly applications
+        I build interfaces and ship AI agents to production
       </AnimatedTitle>
 
       <div className="grid grid-cols-1 lg:grid-cols-[8.5fr_3.5fr] gap-8 mt-6">
         <div className="grid grid-cols-1 antialiased gap-6 text-white/80 text-xl md:text-2xl">
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            My passion lies in creating visually appealing, user-friendly
-            interfaces and seamless user experiences. I thrive on turning
-            design concepts into functional, interactive websites or
-            applications using HTML, CSS, REACT.JS, NEXT.JS, REACT NATIVE, JAVASCRIPT and TYPESCRIPT while staying
-            updated with the latest trends and technologies in the web
-            development.
+            I am a self-taught Frontend Developer and AI Systems Builder with
+            around 3 to 4 years of experience building responsive, production-grade
+            interfaces and deploying AI agent infrastructure. My work spans
+            React, Next.js, TypeScript, Node.js, Docker, Nginx, and PostgreSQL,
+            across both client-facing products and internal tooling.
           </AnimatedBody>
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            From writing my first lines of code back in late 2023 to this point
-            I have continually refined my development skills overtime
-            and & also solving complex challenges increasing the
-            complexity of my development as time goes by to ensure improvement.
+            On the AI side, I have built and maintained a full agent ecosystem,
+            deploying multiple AI instances across two VPS servers, shipping a
+            multi-tenant conversation portal, a universal chat widget system,
+            real-time bridge servers, and specialized agents for client use
+            cases, all running in production.
           </AnimatedBody>
           <AnimatedBody className="inline leading-[34px] md:leading-[39px]">
-            Each challenge is unique so I ensure that I learn and grow through
-            each one ensuring that I not only put in my best but also deliver
-            solutions that businesses are proud to call their own. Wanna learn
-            more? Here&apos;s <br className="hidden md:block" />
+            I also run TechCircle, a Lagos-based tech community. Every project
+            I take on gets my full attention from the first commit to the final
+            deployment. Wanna learn more? Here&apos;s <br className="hidden md:block" />
             <Link
               className="underline"
               target="_blank"
               rel="noopener noreferrer"
-              href={
-                "/Saviour_Chukwuebuka_Promise_CV.pdf"
-              }
+              href={"/Promise_Saviour_CV_001.pdf"}
             >
               my résumè
             </Link>
@@ -86,7 +83,7 @@ export default function About({ blobity }: HeroProps) {
               Frontend Tools
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              JavaScript(ES6+), React, ReactNative, Next.js, TypeScript, HTML5, Git/GitHub, React Hook Form, Redux, Formik.
+              JavaScript (ES6+), React, React Native, Next.js, TypeScript, HTML5, Git/GitHub, Redux, React Hook Form, Formik.
             </AnimatedBody>
           </div>
           <div>
@@ -98,8 +95,19 @@ export default function About({ blobity }: HeroProps) {
               UI Libraries
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              CSS3/SCSS/SASS, Tailwind CSS, Vanilla Css, Styled Components, Shadcn Ui, Chakra UI, Framer
-              Motion, Bootstrap.
+              Tailwind CSS, Shadcn UI, Framer Motion, Styled Components, Chakra UI, CSS3/SCSS, Bootstrap.
+            </AnimatedBody>
+          </div>
+          <div>
+            <AnimatedTitle
+              wordSpace={"mr-[0.5ch]"}
+              charSpace={"mr-[0.001em]"}
+              className="font-bold antialiased text-xl md:text-2xl mb-2"
+            >
+              AI & Infrastructure
+            </AnimatedTitle>
+            <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
+              Docker, PM2, Nginx, PostgreSQL, Node.js, Cloudflare Workers, Airtable, Resend, VPS deployment.
             </AnimatedBody>
           </div>
           <div>
@@ -111,7 +119,7 @@ export default function About({ blobity }: HeroProps) {
               Design Tools
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              Figma, FigJam, Corel Draw, Photoshop, Adobe.
+              Figma, FigJam, Corel Draw, Photoshop.
             </AnimatedBody>
           </div>
         </div>
