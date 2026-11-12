@@ -22,6 +22,22 @@ export default function Works({ blobity }: HeroProps) {
 
   const works = [
     {
+      title: "Curi",
+      gitLink: "https://github.com/OnyekwereMichael/curio",
+      liveLink: "https://www.trycuri.app/",
+      about:
+        "Curi is a daily learning app that teaches you a new word and a surprising fact every day, then helps you remember them with a quick quiz. It takes about two minutes. Streaks and shields keep you consistent, and words you save come back so they stick. Built for anyone curious, from students to professionals.",
+      stack: [
+        "react",
+        "typescript",
+        "vite",
+        "tailwindcss",
+        "framer motion",
+        "supabase",
+      ],
+      img: "/Curi.png",
+    },
+    {
       title: "Scannet.AI",
       gitLink: "https://github.com/saviourpromise/scannet",
       liveLink: "https://scannetai.vercel.app/",
@@ -37,10 +53,10 @@ export default function Works({ blobity }: HeroProps) {
       img: "/SCANNET.png",
     },
     {
-      title: "Resourcefull",
+      title: "ResourceFull",
       gitLink: "https://github.com/resource-full/ResourceFull-Frontend",
       liveLink: "https://resourcefull-v2.vercel.app",
-      about: "Resourcefull is a resource-sharing platform designed to help young professionals, enterprises and startups have quick and easy access to the resources they need. The platform features structured learning pathways, popular category browsing, top contributor highlights, and community testimonials to encourage knowledge sharing.",
+      about: "ResourceFull is a resource-sharing platform designed to help young professionals, enterprises and startups have quick and easy access to the resources they need. The platform features structured learning pathways, popular category browsing, top contributor highlights, and community testimonials to encourage knowledge sharing.",
       stack: ["nextjs", "react", "typescript", "tailwindcss", "recharts", "axios"],
       img: "/RF.png",
     },
